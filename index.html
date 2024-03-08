@@ -425,8 +425,8 @@ td {
 	.__jc-82 { justify-content: center; }
 	.__ali-83 { align-items: center; }
 	.__g-84 { gap: 32px; }
-	.__rl-85 {  font-family: fastn-community-github-io-inter-font-Inter; font-size: 50px; font-weight: 700; line-height: 65px; }
-	body.mobile .__rl-85 {  font-family: fastn-community-github-io-inter-font-Inter; font-size: 36px; font-weight: 700; line-height: 54px; }
+	.__rl-85 {  font-family: fastn-community-github-io-inter-font-Inter; font-size: 80px; font-weight: 700; line-height: 104px; }
+	body.mobile .__rl-85 {  font-family: fastn-community-github-io-inter-font-Inter; font-size: 48px; font-weight: 700; line-height: 64px; }
 	.__w-86 { width: fit-content; }
 	.__c-88 { color: #06135B !important; }
 	body.dark .__c-88 { color: #dee3fa !important; }
@@ -4479,23 +4479,23 @@ fastn_utils.createNestedObject(global, "fastn_community_github_io_design_system_
   record.set("justify", 7);
   return record;
 }());
-let fastn_community_github_io_design_system_typography__heading_large = function (parent, inherited, args)
+let fastn_community_github_io_design_system_typography__heading_hero = function (parent, inherited, args)
 {
   let __fastn_super_package_name__ = __fastn_package_name__;
   __fastn_package_name__ = "meenukumari28_github_io_coming_soon_7";
   try {
     let __args__ = {
       width: fastn_dom.Resizing.HugContent,
+      color: global.meenukumari28_github_io_coming_soon_7_ds__colors.get("text_strong"),
       align: 1,
       margin: null,
-      color: global.meenukumari28_github_io_coming_soon_7_ds__colors.get("text_strong"),
       link: null,
       style: fastn.mutableList([]),
     };
     inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
     __args__ = fastn_utils.getArgs(__args__, args);
     let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Text);
-    parenti0.setProperty(fastn_dom.PropertyKind.Role, global.meenukumari28_github_io_coming_soon_7_ds__types.get("heading_large"), inherited);
+    parenti0.setProperty(fastn_dom.PropertyKind.Role, global.meenukumari28_github_io_coming_soon_7_ds__types.get("heading_hero"), inherited);
     parenti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.text, inherited);
     parenti0.setProperty(fastn_dom.PropertyKind.Width, __args__.width, inherited);
     parenti0.setProperty(fastn_dom.PropertyKind.MarginBottom, fastn.formula([__args__.margin], function () {
@@ -4556,7 +4556,7 @@ let fastn_community_github_io_design_system_typography__heading_large = function
     __fastn_package_name__ = __fastn_super_package_name__;
   }
 }
-global["fastn_community_github_io_design_system_typography__heading_large"] = fastn_community_github_io_design_system_typography__heading_large;
+global["fastn_community_github_io_design_system_typography__heading_hero"] = fastn_community_github_io_design_system_typography__heading_hero;
 let fastn_community_github_io_design_system_typography__copy_regular = function (parent, inherited, args)
 {
   let __fastn_super_package_name__ = __fastn_package_name__;
@@ -5209,7 +5209,7 @@ let meenukumari28_github_io_coming_soon_7_lib__coming_soon = function (parent, i
           }
           ),
           content: fastn.mutableList([function (root, inherited) {
-            let rooti0 = meenukumari28_github_io_coming_soon_7_ds__heading_large(root, inherited, {
+            let rooti0 = meenukumari28_github_io_coming_soon_7_ds__heading_hero(root, inherited, {
               text: __args__.title
             });
           },
@@ -5490,10 +5490,10 @@ let meenukumari28_github_io_coming_soon_7_ds__section_column = global["fastn_com
 global["meenukumari28_github_io_coming_soon_7_ds__section_column"] = meenukumari28_github_io_coming_soon_7_ds__section_column;
 let fastn_community_github_io_design_system__section_column = global["fastn_community_github_io_design_system_foundation_elements_section_column__section_column"];
 global["fastn_community_github_io_design_system__section_column"] = fastn_community_github_io_design_system__section_column;
-let meenukumari28_github_io_coming_soon_7_ds__heading_large = global["fastn_community_github_io_design_system_typography__heading_large"];
-global["meenukumari28_github_io_coming_soon_7_ds__heading_large"] = meenukumari28_github_io_coming_soon_7_ds__heading_large;
-let fastn_community_github_io_design_system__heading_large = global["fastn_community_github_io_design_system_typography__heading_large"];
-global["fastn_community_github_io_design_system__heading_large"] = fastn_community_github_io_design_system__heading_large;
+let meenukumari28_github_io_coming_soon_7_ds__heading_hero = global["fastn_community_github_io_design_system_typography__heading_hero"];
+global["meenukumari28_github_io_coming_soon_7_ds__heading_hero"] = meenukumari28_github_io_coming_soon_7_ds__heading_hero;
+let fastn_community_github_io_design_system__heading_hero = global["fastn_community_github_io_design_system_typography__heading_hero"];
+global["fastn_community_github_io_design_system__heading_hero"] = fastn_community_github_io_design_system__heading_hero;
 let meenukumari28_github_io_coming_soon_7_ds__copy_regular = global["fastn_community_github_io_design_system_typography__copy_regular"];
 global["meenukumari28_github_io_coming_soon_7_ds__copy_regular"] = meenukumari28_github_io_coming_soon_7_ds__copy_regular;
 let fastn_community_github_io_design_system__copy_regular = global["fastn_community_github_io_design_system_typography__copy_regular"];
