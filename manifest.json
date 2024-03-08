@@ -2,13 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "8D6CC3B6C06FB35136069F316F77CC313101CBF57FD4EE927AC7AC84FFA3840C",
-      "size": 627
-    },
-    "FASTN/ds.ftd": {
-      "name": "FASTN/ds.ftd",
-      "checksum": "ED64503D0B5C287987FD67A30D2E8606836AE384912786B030D2EE1E303D0BC9",
-      "size": 2356
+      "checksum": "091D02B950E24E7545CDA167D9C84C5CF965AC96BE5BE3D2452537EC4A9E1BBD",
+      "size": 512
     },
     "README.md": {
       "name": "README.md",
@@ -20,6 +15,41 @@
       "checksum": "A42D91290C93B5F17412C3B346737EA1C796E5D287306758AFE8B20470119D80",
       "size": 21
     },
+    "assets/background.jpg": {
+      "name": "assets/background.jpg",
+      "checksum": "DDD75922928C52815D4D65A3EF20807F6A857EB3BA00834DC904D27031B1FFC4",
+      "size": 61786
+    },
+    "assets/icon-1.svg": {
+      "name": "assets/icon-1.svg",
+      "checksum": "5207F342D0A80845763C6C2E74A340A6209FE2951DEEF03CB7568AE9C60BDCE7",
+      "size": 621
+    },
+    "assets/icon-2.svg": {
+      "name": "assets/icon-2.svg",
+      "checksum": "DDDEA38FA335759E14747EEACBF6AC0E5517FF1E7C41497A711EB85E3ECD3203",
+      "size": 1902
+    },
+    "assets/icon-3.svg": {
+      "name": "assets/icon-3.svg",
+      "checksum": "F289D716C25E8A14ED46FCEB027ABFECF82C944040898AFFEB9D0AB8B15E7F36",
+      "size": 3140
+    },
+    "assets/icon-4.svg": {
+      "name": "assets/icon-4.svg",
+      "checksum": "CF4BFE5CC180960D5B39292BF7E66E33A1B2F0D550F01C4DAB5BA457CD63AA51",
+      "size": 983
+    },
+    "assets/icon-5.svg": {
+      "name": "assets/icon-5.svg",
+      "checksum": "A02C86C1B28E2F7D84A85B7D668D47AF4FDF3706CDBFBC7C68F88B6416E8377D",
+      "size": 1408
+    },
+    "assets/icon-6.svg": {
+      "name": "assets/icon-6.svg",
+      "checksum": "17DC0D44C9BD8623ECD3CB292837EDB7D8106E083489D3F14599AF488A5F9453",
+      "size": 1241
+    },
     "assets/ipsum-logo-dark.svg": {
       "name": "assets/ipsum-logo-dark.svg",
       "checksum": "8290B3397C465FE1BB40B7CA280C976DF7DA3DABFC655B429805ABF33964FB5B",
@@ -30,6 +60,11 @@
       "checksum": "A227CF22E798ACFB2D01B6352FC22A28047444F028AF05440C6CE6F9499C0EDF",
       "size": 15494
     },
+    "ds.ftd": {
+      "name": "ds.ftd",
+      "checksum": "4EC315729A5A6AF064E4F8546D4CDEDBB3F6BDF803D5970ECFBB46B3EF8AE742",
+      "size": 881
+    },
     "favicon.ico": {
       "name": "favicon.ico",
       "checksum": "65056A1D6C6AAE6E3DC4626E29F4BD4B628B17A8E9CC1D3A5E8FE9F6743F306B",
@@ -37,13 +72,18 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "32532606DDF89B56B42BA173EEAC7F7E9006DEEC07ABF10F6ABE246DC0EC1482",
-      "size": 1190
+      "checksum": "204912C7EF7E26DA3C138C2272CAE0ECAD44EC8C70E4EE6368510229366165AF",
+      "size": 306
     },
-    "sidebar.ftd": {
-      "name": "sidebar.ftd",
-      "checksum": "98EA5E5D5540AA8CCFA6C4ABEE6C2D476F6E1310B6B7E8978E81F62368EFA035",
-      "size": 1281
+    "lib.ftd": {
+      "name": "lib.ftd",
+      "checksum": "64D6D250A8B4FD206AFCDE752CBCF197C0955D279B5A4AC9624FC138D265A2F7",
+      "size": 2501
+    },
+    "themecolors.ftd": {
+      "name": "themecolors.ftd",
+      "checksum": "52D48AD3F48011DABAB25EDCAF47F71066C3E2C919EED75F0E83EB78BE5B85CD",
+      "size": 6480
     },
     "vercel.json": {
       "name": "vercel.json",
@@ -52,5 +92,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/meenukumari28/coming-soon-7/zip/refs/heads/main",
-  "checksum": "47353A4B3CD20EF3ED23B1109FEDD1AE66B1A123B884A085108667A9AE70B3BC"
+  "checksum": "EAAFE1C1F988A1957198B2E933F4AB484685815AB12825A8B40A53F173C4AA68"
 }
