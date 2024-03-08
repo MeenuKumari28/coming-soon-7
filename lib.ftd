@@ -16,7 +16,7 @@ spacing: $ds.spaces.vertical-gap.large
 inset: $ds.spaces.inset-square.large
 radius: $ds.radius.large
 
--- ds.heading-large: $coming-soon.title
+-- ds.heading-hero: $coming-soon.title
 
 -- ds.copy-regular: $coming-soon.body
 align: center
