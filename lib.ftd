@@ -17,6 +17,7 @@ inset: $ds.spaces.inset-square.large
 radius: $ds.radius.large
 
 -- ds.heading-hero: $coming-soon.title
+align: center
 
 -- ds.copy-regular: $coming-soon.body
 align: center
