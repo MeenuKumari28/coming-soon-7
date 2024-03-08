@@ -4,11 +4,15 @@ body body:
 string cta-text:
 string cta-link:
 
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-square.large
+
 -- ds.column:
 background.solid: $ds.colors.background.base
 width.fixed.px if { ftd.device != "mobile" }: 860
 spacing: $ds.spaces.vertical-gap.large
-inset if { ftd.device == "mobile" }: $ds.spaces.inset-wide.medium-zero
+;;inset if { ftd.device == "mobile" }: $ds.spaces.inset-wide.medium-zero
 inset: $ds.spaces.inset-square.large
 radius: $ds.radius.large
 
@@ -16,7 +20,7 @@ radius: $ds.radius.large
 
 -- ds.copy-regular: $coming-soon.body
 align: center
-width.fixed.px: 570
+width.fixed.px if { ftd.device != "mobile" }: 570
 
 -- ds.row:
 if: { ftd.device != "mobile" }
@@ -71,17 +75,30 @@ rounded: true
 
 -- end: ds.column
 
+-- end: ds.section-column
+
 -- end: coming-soon
+
+
+
+
+
+
+
+
 
 
 -- component social-icon:
 social list social-list:
 
 -- ds.floater:
-bottom: 20
+bottom: 0
 
 -- ds.row:
 spacing: $ds.spaces.horizontal-gap.large
+background.solid: #FF5144
+radius: $ds.radius.zero
+inset: $ds.spaces.inset-square.large
 
 -- icon-data:
 for: $obj in $social-icon.social-list
